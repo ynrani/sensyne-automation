@@ -1,0 +1,86 @@
+{
+  "api": {
+      "dhosServices": "dhos-services/dhos/v1/",
+    "products": {
+      "name": "SEND",
+      "product": "product/",
+      "send": "SEND/",
+      "location": "location",
+      "record": "",
+      "clinician": "clinician",
+      "patient": "patient"
+    }
+  },
+  "url": {
+    "baseUrl": "https://dev.sensynehealth.com/",
+    "sendEntry": "send-entry/",
+    "activation": "activation",
+    "login": "send/",
+    "admin": "gdm/admin",
+    "patients": "gdm/patients",
+
+    "auth0": "http://auth0.com/oauth/grant-type/password-realm&",
+    "sandBox": "https://login-sandbox.sensynehealth.com/oauth/token"
+  },
+
+  "token": {
+    "realm" : "dev-users",
+    "clientId" : "jpvbEJUhH3SFgZ6Kfd0E95QLFwP2d3nB"
+  },
+
+  "users": {
+    "itAdmin": {
+      "username": "maureen.splange@mail.com",
+      "password": "Pass@word1!"
+    },
+    "midWife": {
+      "username": "Wolrab@mail.com",
+      "password": "Pass@word1!"
+    },
+    "patientManager": {
+      "username": "stan.lee@mail.com",
+      "password": "Pass@word1!"
+    }
+  },
+
+  "activationCode" : "111111111",
+  "sendEntryId": "666666",
+  "sendEntryPatientId": "W1±20154846±9998725281±test±test±12/12/1987±M",
+  "patientName":"test test",
+  "currentTime": "now",
+  "timeShift": 0,
+  "invalidTimeShift": 250,
+  "temperature": "38",
+  "invalidTemperature": "2",
+  "heartRate": "40",
+  "invalidHeartRate": "2",
+  "respiratoryRate": "19",
+  "invalidRespiratoryRate": "3",
+  "o2SaturationPercentage": "88",
+  "invalidO2SaturationPercentage": "39",
+  "bloodPressureDiastolic": "99",
+  "invalidBloodPressureDiastolic": "",
+  "bloodPressureSystolic": "120",
+  "invalidBloodPressureSystolic": "29",
+  "bloodPressurePosture": "lying",
+  "maskType": "highFlow",
+  "maskTypeSecondary": "99",
+  "o2TherapyValue": "1",
+  "invalidO2TherapyValue": "0",
+  "avcpuConsciousness": "Alert",
+  "clinicianConcern": "General concern",
+  "refused": [],
+
+  "defaultWaitUntilTimeout": 30000,
+  "defaultPollingTime": 5000,
+
+  "testUser": {
+    "firstName": "Automated",
+    "lastName": "Testing",
+    "phoneNumber": "07123456770",
+    "nhsSmartcardNumber": "211213",
+    "jobTitle": "Nurse",
+    "openedDate":"2018-01-01"
+
+  }
+}

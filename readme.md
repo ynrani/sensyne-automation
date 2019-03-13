@@ -11,11 +11,11 @@ Step 1 - log in to Github
 
 Step 2 - clone the repo   
 
-git clone git@github.com:draysontechnologies/sensyne-automation.gitClone:https://github.com/draysontechnologies/sensyne-automation.git
+git clone https://github.com/bnrani/sensyne-automation.git
 
 
 You can also manually download the repo 
-Download: https://github.com/draysontechnologies/sensyne-automation.zip
+Download: https://github.com/bnrani/sensyne-automation.git
  
 
 
